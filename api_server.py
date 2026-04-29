@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 db = mysql.connector.connect(
-    host="localhost",
+    host="192.168.1.10",
     user="qa_user",
     password="Qa@12345",
     database="ros2_data"
