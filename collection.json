@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "a4a731fa-d386-43e8-a8f9-8026b9fe080f",
+		"name": "Ubuntu-QA-Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "52559030",
+		"_collection_link": "https://www.postman.com/jandhyala-ramkrishna-8527834/workspace/ubuntu-qa-testing/collection/52559030-a4a731fa-d386-43e8-a8f9-8026b9fe080f?action=share&source=collection_link&creator=52559030"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
